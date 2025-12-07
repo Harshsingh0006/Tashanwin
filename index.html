@@ -1,0 +1,388 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#0f172a" />
+
+  <!-- Primary SEO -->
+  <title>DiuWin — Play & Win | Quick Withdrawals • Secure • Bonuses</title>
+  <meta name="description" content="TashanWin-like instant win games: register, claim a welcome bonus, and withdraw quickly. Secure platform, multiple game modes." />
+  <link rel="canonical" href="https://tashanwinhack.com/" />
+
+  <!-- Open Graph -->
+  <meta property="og:site_name" content="TashanWin" />
+  <meta property="og:title" content="TashanWin — Play & Win | Quick Withdrawals • Secure • Bonuses" />
+  <meta property="og:description" content="Register for a welcome bonus and play thrilling short-session games. Fast withdrawals, 24/7 support." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://tashanwinhack.com/" />
+  <meta property="og:image" content="logo.jpg" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <!-- Structured Data (JSON-LD) for Search Engines -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "TashanWin",
+    "url": "https://tashanwinhack.com/",
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": "https://tashanwinhack.com/?s={search_term_string}",
+      "query-input": "required name=search_term_string"
+    }
+  }
+  </script>
+
+  <!-- Tailwind CDN (production: compile your own Tailwind for best perf) -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    /* Small tweaks */
+    .glass { background: rgba(255,255,255,0.03); backdrop-filter: blur(6px); }
+    /* Modal styling */
+    .modal-backdrop { background: rgba(2,6,23,0.75); }
+    .modal-card { max-width: 1100px; width: 96%; height: 90vh; border-radius: 12px; overflow: hidden; background: #0b210b; box-shadow: 0 10px 40px rgba(2,6,23,0.6); }
+  </style>
+
+  <!-- Favicons (replace with your favicons) -->
+  <link rel="icon" href="logo.jpg" />
+</head>
+<body class="bg-slate-900 text-slate-100 antialiased leading-relaxed">
+
+  <!-- Topbar -->
+  <header class="sticky top-0 z-50 bg-gradient-to-r from-slate-900/95 to-slate-800/80 backdrop-blur-md border-b border-slate-800">
+    <div class="max-w-6xl mx-auto px-4 py-4 flex items-center justify-between">
+      <div class="flex items-center gap-3">
+        <img src="logo.jpg" alt="DiuWin logo" class="h-10 w-10" />
+        <div>
+          <a href="#" class="text-xl font-semibold">TashanWin</a>
+          <div class="text-xs text-slate-400">Play • Win • Withdraw</div>
+        </div>
+      </div>
+
+      <nav class="hidden md:flex gap-6 items-center text-sm">
+        <a href="#features" class="hover:underline">Features</a>
+        <a href="#how" class="hover:underline">How it Works</a>
+        <a href="#faq" class="hover:underline">FAQ</a>
+        <!-- Register triggers modal -->
+        <button id="navRegisterBtn" class="px-4 py-2 rounded-md bg-amber-500 text-slate-900 font-medium">Register</button>
+      </nav>
+
+      <div class="md:hidden">
+        <button id="menuBtn" aria-label="Open menu" class="p-2 rounded-md ring-1 ring-slate-700">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- MOBILE MENU -->
+<div id="mobileMenu" class="md:hidden fixed top-16 left-0 right-0 bg-slate-900 border-b border-slate-800 hidden px-4 py-4 z-50">
+  <nav class="flex flex-col gap-4 text-lg">
+    <a href="#features" class="hover:underline">Features</a>
+    <a href="#how" class="hover:underline">How it Works</a>
+    <a href="#faq" class="hover:underline">FAQ</a>
+
+    <!-- Register button -->
+    <button id="mobileRegisterBtn" class="w-full px-4 py-2 rounded-md bg-amber-500 text-slate-900 font-medium">
+      Register
+    </button>
+  </nav>
+</div>
+  <!-- Hero -->
+  <main class="pt-12">
+    <section class="max-w-6xl mx-auto px-4 grid md:grid-cols-2 gap-8 items-center">
+      <div class="space-y-6">
+        <h1 class="text-4xl md:text-5xl font-extrabold leading-tight">Spin, Play, Withdraw — <span class="text-amber-400">Win Instantly</span></h1>
+        <p class="text-slate-300 max-w-xl">Join thousands of players. Claim a register bonus and start playing short-session games with fast withdrawals and 24/7 support.</p>
+
+        <div class="flex gap-3">
+          <!-- hero button also opens modal -->
+          <button id="heroRegisterBtn" class="inline-flex items-center gap-2 px-5 py-3 rounded-lg bg-amber-500 text-slate-900 font-semibold shadow-lg">Register Now</button>
+         <a href="https://t.me/tashannwinnn"class="inline-flex items-center gap-2 px-5 py-3 rounded-lg bg-amber-500 text-slate-900 font-semibold shadow-lg">
+             <img src="telegram.jpg" alt="Telegram" class="w-5 h-5"> Visit Channel</a>
+          <a href="#how" class="inline-flex items-center gap-2 px-5 py-3 rounded-lg ring-1 ring-slate-700">How it Works</a>
+        </div>
+
+        <div class="grid grid-cols-2 gap-3 mt-6">
+          <div class="p-3 glass rounded-lg">
+            <div class="text-sm text-slate-400">Invite Code</div>
+            <div class="font-semibold">765274212793</div>
+          </div>
+
+          <div class="p-3 glass rounded-lg">
+            <div class="text-sm text-slate-400">Withdrawal Time</div>
+            <div class="font-semibold">Instant • T+0</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="bg-gradient-to-b from-slate-800/60 to-slate-700/60 rounded-2xl p-6 shadow-lg">
+        <div class="rounded-xl overflow-hidden bg-gradient-to-r from-slate-900 to-slate-800 p-4">
+          <img src="main.jpg" alt="App preview" class="w-full h-auto rounded-md mx-auto" loading="lazy" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Features -->
+    <section id="features" class="mt-16 max-w-6xl mx-auto px-4">
+      <h2 class="text-2xl font-bold mb-6">Why Players Choose Us</h2>
+      <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        <article class="p-4 bg-green-500 rounded-lg">
+          <h3 class="font-semibold">Fast Withdrawals</h3>
+          <p class="text-sm ">Withdrawals processed quickly with low fees and clear T&Cs.</p>
+        </article>
+
+        <article class="p-4 bg-green-500 rounded-lg">
+          <h3 class="font-semibold">Secure Platform</h3>
+          <p class="text-sm ">Bank-grade encryption, two-factor options, and secure payouts.</p>
+        </article>
+
+        <article class="p-4 bg-green-500 rounded-lg">
+          <h3 class="font-semibold">Bonuses & Promos</h3>
+          <p class="text-sm ">Welcome bonus, deposit bonuses and referral rewards.</p>
+        </article>
+
+        <article class="p-4 bg-green-500 rounded-lg">
+          <h3 class="font-semibold">24/7 Support</h3>
+          <p class="text-sm ">Fast support via chat, email, and in-app tickets.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- How It Works -->
+    <section id="how" class="mt-16 max-w-4xl mx-auto px-4 text-slate-300">
+      <h2 class="text-2xl font-bold mb-4">How it works</h2>
+      <ol class="list-decimal list-inside space-y-3">
+        <li>Create an account and verify your phone/email.</li>
+        <li>Claim the register bonus and play a demo round.</li>
+        <li>Deposit to play higher stakes (optional).</li>
+        <li>Withdraw anytime via the Withdraw page — follow verification rules.</li>
+      </ol>
+    </section>
+
+    <!-- REGISTER SECTION (we replaced inline form with a modal-trigger button) -->
+    <section id="register" class="mt-12 max-w-3xl mx-auto px-4">
+      <div class="p-6 bg-green-500 rounded-xl">
+        <h3 class="text-xl font-semibold mb-4">Register</h3>
+        <p class=" mb-4">Click the button below to open the registration window. If the site blocks embedding, we'll open the registration page in a new tab automatically.</p>
+        <button id="registerBtn" class="block w-full text-center px-4 py-3 rounded-md bg-amber-500 text-slate-900 font-semibold">Open Registration</button>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section id="faq" class="mt-12 max-w-4xl mx-auto px-4">
+      <h2 class="text-2xl font-bold mb-4">Frequently asked questions</h2>
+      <details class="mb-2 p-3 bg-slate-800 rounded-md"><summary class="font-medium">Is withdrawal instant?</summary><p class="mt-2 text-slate-400">Withdrawal SLA depends on verification. Small amounts may be instant, larger withdrawals go through anti-fraud review.</p></details>
+      <details class="mb-2 p-3 bg-slate-800 rounded-md"><summary class="font-medium">How do bonuses work?</summary><p class="mt-2 text-slate-400">Bonuses subject to wagering and T&Cs. Read the bonuses page for eligibility and withdrawal rules.</p></details>
+    </section>
+
+  </main>
+  <!-- SEO CONTENT BLOCK (Option 1 + Option 4) -->
+<section class="mt-20 max-w-6xl mx-auto px-4 space-y-10">
+  <h2 class="text-3xl font-bold">About TashanWin — Play Smart, Win Smart</h2>
+  <p class="text-slate-300">TashanWin is a prediction-based entertainment platform offering fast-paced color prediction, aviator, crash games, casino-style gameplay and instant withdrawals. The platform focuses on secure play, transparency, high-quality game mechanics and responsible gaming. With thousands of active users daily, TashanWin is becoming a trending name among online earning game players searching for terms like "TashanWin register", "Tashan Win color prediction", "TashanWin bonus", "Aviator tricks", "casino earning games" and more.</p>
+
+  <h3 class="text-2xl font-bold">Why TashanWin Is Trending in 2025</h3>
+  <ul class="list-disc ml-5 text-slate-300 space-y-2">
+    <li>Instant withdrawals (T+0)</li>
+    <li>Multiple game categories — color prediction, aviator, mines, slots</li>
+    <li>Safe, encrypted gameplay</li>
+    <li>Daily login rewards and referral bonuses</li>
+    <li>Easy-to-understand UI for new players</li>
+  </ul>
+
+</section>
+
+<!-- BLOG SECTION (20 POSTS) -->
+<section id="blogs" class="mt-24 max-w-6xl mx-auto px-4">
+  <h2 class="text-3xl font-bold mb-8">Latest Blog Posts</h2>
+  <div class="grid md:grid-cols-2 gap-8">
+
+    <!-- 20 FULL BLOG POSTS WILL BE ADDED HERE (each 150–200 words) -->
+
+    <article class="p-6 rounded-xl  blog-box bg-green-500">
+      <h3 class="text-xl font-bold mb-3 bg-amber-600">1. TashanWin Online Gaming – The Best Online Earning Game With Easy Withdrawal</h3>
+      <p>TashanWin has become one of the most searched online earning platforms in India because it offers fast gameplay, real cash rewards, and easy withdrawal through UPI. Many players choose TashanWin over other online gaming apps because the platform is stable, safe, and designed for quick earning. Whether you love Aviator, color prediction, betting games, or fast spin-based games, TashanWin offers everything in one place.
+
+One of the biggest advantages of TashanWin is its instant withdrawal system. You can earn money from online gaming and transfer it to your bank account within minutes. This makes TashanWin one of the top choices for users searching for best online earning game, real cash withdrawal, or betting games with UPI cashout.
+</p>
+    </article>
+
+    <article class="p-6 rounded-xl bg-green-500 blog-box">
+      <h3 class="text-xl font-bold mb-3 bg-amber-600">2. Top 5 TashanWin Games to Earn Money Fast – Aviator, Color Prediction & More</h3>
+      <p>TashanWin offers some of the fastest online gaming options for players who want to earn money quickly with safe gameplay and easy withdrawals. Among all real-cash gaming apps, TashanWin ranks high because it has simple games that don’t require heavy knowledge or experience.
+
+The most popular game category is color prediction. TashanWin color prediction rounds finish in a few seconds, letting you win multiple times in a short session. For players who enjoy high-speed betting, this game is perfect.
+
+Another top game is Aviator-style crash gameplay, which is currently trending among online gaming earners. Aviator on TashanWin is fast, predictable with practice, and one of the best ways to earn real cash online.
+</p>
+    </article>
+
+     <article class="p-6 rounded-xl bg-green-500 blog-box">
+      <h3 class="text-xl font-bold mb-3 bg-amber-600">3. Why TashanWin Is India’s Most Trusted Online Earning Game With Instant Withdrawal</h3>
+      <p>When it comes to online earning games, many apps promise rewards, but only a few offer instant withdrawal. TashanWin is one of the most trusted because it provides transparent gameplay, real-time results, and secure UPI transactions. If you want a real money earning game, betting app, Aviator crash game, or color prediction platform, TashanWin covers everything.
+
+Players love the fast withdrawal system because they can earn money online and withdraw immediately. No delays, no complicated steps – just simple UPI transfer. This has made TashanWin a top platform among students, part-time earners, and online gaming fans in India.
+
+</p>
+    </article>
+
+     <article class="p-6 rounded-xl bg-green-500 blog-box">
+      <h3 class="text-xl font-bold mb-3 bg-amber-600">4. Aviator & Color Prediction on TashanWin – The Best Way to Earn Money Online in 2025</h3>
+      <p>Aviator and color prediction games have taken over India’s online gaming community. TashanWin offers one of the best versions of these games, optimized for fast rounds, clean UI, and real cash winnings. If you want to earn money online through simple gameplay, starting with DiuWin Aviator and color prediction is a great choice.
+
+The Aviator game on DiuWin is designed for players who understand timing and cash-out strategy. It is perfect for users who enjoy high-speed prediction and want to earn consistently. Similarly, DiuWin color prediction is one of the easiest ways for beginners to start making money.
+.</p>
+    </article>
+
+     <article class="p-6 rounded-xl bg-green-500 blog-box">
+      <h3 class="text-xl font-bold mb-3 bg-amber-600">5. How to Earn Money Safely on TashanWin – Full Guide for Beginners</h3>
+      <p>Many players want to earn money through online gaming, but safety is always a concern. TashanWin solves this problem by offering a secure gaming environment, encrypted payments, and easy withdrawal options. If you’re a beginner wanting to make money online using Aviator, color prediction, or betting-style games, TashanWin is one of the safest platforms.
+
+To start earning, register using your number, claim bonuses, and begin with small bets. Focus on color prediction games first because they are easy and ideal for pattern observation. Once you gain confidence, you can try Aviator and number prediction games.
+
+</p>
+    </article>
+
+     <article class="p-6 rounded-xl bg-green-500 blog-box">
+      <h3 class="text-xl font-bold mb-3 bg-amber-600">6. TashanWin – India’s Fastest Real Cash Online Gaming Platform (Color Prediction + Aviator)</h3>
+      <p>TashanWin has quickly become India’s fastest-growing online gaming and online earning platform. It combines the most popular prediction games like Aviator, color prediction, number betting, and real-cash games that help users earn money easily.
+
+The biggest strength of TashanWin is its instant withdrawal system. Players can transfer their winnings to their bank accounts within minutes, making it one of the fastest withdrawal gaming apps in India.
+</p>
+    </article>
+
+    <!-- Continue adding posts up to 20 -->
+
+  </div>
+</section>
+
+
+  <!-- Footer -->
+  <footer class="mt-20 border-t border-slate-800 py-8">
+    <div class="max-w-6xl mx-auto px-4 flex flex-col md:flex-row justify-between gap-6">
+      <div>
+        <div class="font-semibold text-lg">TashanWin</div>
+        <div class="text-slate-400 text-sm">© <span id="year"></span> TashanWin. All rights reserved.</div>
+      </div>
+      <div class="text-slate-400 text-sm">
+        <a href="#" class="block">Terms & Conditions</a>
+        <a href="#" class="block">Privacy Policy</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Modal (hidden by default) -->
+  <div id="regModal" class="fixed inset-0 hidden items-center justify-center modal-backdrop z-50 p-4">
+    <div class="modal-card">
+      <!-- header -->
+      <div class="flex items-center justify-between px-4 py-3 border-b border-slate-800">
+        <div class="text-lg font-semibold">Complete Registration</div>
+        <div class="flex items-center gap-2">
+          <a id="openNewTabBtn" href="#" target="_blank" rel="noopener noreferrer" class="text-sm px-3 py-1 rounded bg-slate-800 text-amber-400">Open in new tab</a>
+          <button id="closeModalBtn" class="text-slate-300 px-3 py-1 rounded bg-slate-700">Close</button>
+        </div>
+      </div>
+
+      <!-- iframe container -->
+      <div class="w-full h-full bg-black">
+        <iframe id="regIframe" src="about:blank" class="w-full h-[calc(100%-56px)]" title="Registration"></iframe>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    // Safe year
+    const yearEl = document.getElementById('year');
+    if (yearEl) yearEl.textContent = new Date().getFullYear();
+
+    // Guard menu button
+    const menuBtn = document.getElementById('menuBtn');
+    const mobileMenu = document.getElementById('mobileMenu');
+
+if (menuBtn && mobileMenu) {
+  menuBtn.addEventListener('click', () => {
+    mobileMenu.classList.toggle('hidden');
+  });
+}
+
+// Mobile register button inside the drawer
+const mobileRegisterBtn = document.getElementById('mobileRegisterBtn');
+if (mobileRegisterBtn) mobileRegisterBtn.addEventListener('click', openRegistrationModal);
+
+
+    // Registration URL (your referral)
+    const REG_URL = 'https://tashanwin.org/#/register?invitationCode=765274212793';
+
+    // Elements
+    const regModal = document.getElementById('regModal');
+    const regIframe = document.getElementById('regIframe');
+    const registerBtn = document.getElementById('registerBtn');
+    const navRegisterBtn = document.getElementById('navRegisterBtn');
+    const heroRegisterBtn = document.getElementById('heroRegisterBtn');
+    const closeModalBtn = document.getElementById('closeModalBtn');
+    const openNewTabBtn = document.getElementById('openNewTabBtn');
+
+    // Helper to open modal and load iframe
+    function openRegistrationModal() {
+      if (!regModal) { window.open(REG_URL, '_blank'); return; }
+      // show modal
+      regModal.classList.remove('hidden');
+      // set iframe src only when opening
+      regIframe.src = REG_URL;
+
+      // set "open in new tab" link
+      if (openNewTabBtn) openNewTabBtn.href = REG_URL;
+
+      // Start fallback timer: if iframe doesn't fire load in time, assume blocked and auto-open in new tab.
+      let loadFired = false;
+      const loadHandler = () => { loadFired = true; cleanup(); };
+      const cleanup = () => {
+        try { regIframe.removeEventListener('load', loadHandler); } catch(e) {}
+        if (timeoutId) clearTimeout(timeoutId);
+      };
+
+      // Attach load handler (if iframe loads, we cancel fallback)
+      try { regIframe.addEventListener('load', loadHandler, { once: true }); } catch(e) {}
+
+      // Fallback: after 3000ms, if loadFired is false -> auto open new tab (Option 1)
+      const timeoutId = setTimeout(() => {
+        if (!loadFired) {
+          // close modal visually
+          if (regModal) regModal.classList.add('hidden');
+          // open registration in new tab
+          window.open(REG_URL, '_blank');
+          cleanup();
+        }
+      }, 3000);
+    }
+
+    // Close modal
+    function closeRegistrationModal() {
+      if (regModal) regModal.classList.add('hidden');
+      // remove iframe src to stop any activity
+      if (regIframe) regIframe.src = 'about:blank';
+    }
+
+    // Attach listeners safely
+    if (registerBtn) registerBtn.addEventListener('click', openRegistrationModal);
+    if (navRegisterBtn) navRegisterBtn.addEventListener('click', openRegistrationModal);
+    if (heroRegisterBtn) heroRegisterBtn.addEventListener('click', openRegistrationModal);
+    if (closeModalBtn) closeModalBtn.addEventListener('click', closeRegistrationModal);
+
+    // Also allow Esc to close
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape') closeRegistrationModal();
+    });
+
+    // Accessibility: click outside modal card closes (click on backdrop)
+    if (regModal) {
+      regModal.addEventListener('click', (ev) => {
+        if (ev.target === regModal) closeRegistrationModal();
+      });
+    }
+  </script>
+
+</body>
+</html>
